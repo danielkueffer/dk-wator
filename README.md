@@ -8,4 +8,4 @@ Wa-Tor Java Application
 
 ## License
 
-See LICENSE.txt
+See [LICENSE.txt](https://github.com/danielkueffer/dk-wator/blob/master/LICENSE.txt)
