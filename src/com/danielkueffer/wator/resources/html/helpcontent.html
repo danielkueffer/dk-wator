@@ -1,0 +1,75 @@
+<html>
+	<div>
+		<h3>Beschreibung</h3>
+		
+		<p>
+		Wator ist der Name f&uuml;r eine diskrete Simulation f&uuml;r die Modellierung eines einfachen R&auml;uber-Beute-Modells. Simuliert wird ein abgeschlossenes System, ein hypothetischer, toroidaler "Planet".
+		</p>
+		
+		<p>
+		Die Oberfl&auml;che dieses "Planeten" ist komplett von Wasser bedeckt, in dem nur zwei Spezies, Haie und Fische, existieren. Das Modell simuliert die Nahrungskette auf Wator. Die Fische ern&auml;hren sich von Plankton, das in beliebigen Mengen zur Verf&uuml;gung steht und deshalb nicht explizit betrachtet wird. Die Haie hingegen fressen ausschliesslich Fische und sind auf diese Nahrung zum &uuml;berleben angewiesen.
+		</p>
+		
+		<h3>Spielfl&auml;che</h3>
+		
+		<p>
+		Das Spielfeld ist in Zeilen und Spalten unterteilt. Dabei sind alle gegen&uuml;berliegenden Seiten torisch verbunden. Jede Zelle des Spielfeldes kann drei Zust&auml;nde einnehmen. Sie kann:
+		</p>
+		
+		<ul>
+			<li>mit einem Hai belegt sein.</li>
+			<li>mit einem Fisch belegt sein.</li>
+			<li>leer sein.</li>
+		</ul>
+		
+		<p>
+		Jedem der drei Zust&auml;nde wird eine Farbe zugewiesen. In dieser Simulation ist es schwarz f&uuml;r Wasser, blau f&uuml;r Fische und rot f&uuml;r Haie.
+		</p>
+		
+		<h3>Spielregeln</h3>
+		
+		<p>
+		Jede der beiden Spezies verh&auml;lt sich nach eindeutig festgelegten Regeln. Ein Individuum, das sich nach oben aus dem Spielfeld bewegt, wird auf der Unterseite wieder eintreten und umgekehrt. Das Gleiche gilt f&uuml;r die horizontale Richtung.
+		</p>
+		
+		<h4>Regeln f&uuml;r Fische</h4>
+		
+		<ul>
+			<li>Jeder Fisch schwimmt zuf&auml;llig auf eines der vier angrenzenden Felder, sofern es leer ist.</li>
+			<li>Jeder Fisch hat ein Alter; &uuml;berschreitet dieses Alter die "Breed Time", so wird auf einem leeren, angrenzenden Feld ein neuer Fisch geboren.
+				<ul>
+					<li>Die "Breed Time" kann im Menu: Vermehrung -> Fische eingestellt werden.</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<h4>Regeln f&uuml;r Haie</h4>
+		
+		<ul>
+			<li>Haie fressen Fische auf angrenzenden Feldern.</li>
+			<li>Findet ein Hai keinen Fisch auf einem angrenzenden Feld, so schwimmt er zuf&auml;llig auf eines der freien, angrenzenden Felder.</li>
+			<li>Findet ein Hai f&uuml;r eine bestimmte Anzahl Runden, der "Shark Starve Time", keinen Fisch, so stirbt der Hai.
+				<ul>
+					<li>Die "Shark Starve Time" kann im Menu: Vermehrung -> Hai-Sterben eingestellt werden.</li>
+				</ul>
+			</li>
+			<li>Haie pflanzen sich genau so fort wie Fische, d. h. nach der "Shark Breed Time" wird ein neuer Hai auf einem Nachbarfeld geboren.
+				<ul>
+					<li>Die "Shark Breed Time" kann im Menu: Vermehrung -> Haie eingestellt werden.</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<p>
+		Die Simulation h&auml;ngt von 5 ver&auml;nderbaren Parametern ab: der Anzahl der Fische zu Beginn, der Anzahl der Haie zu Beginn, der Fish Breed Time (Vermehrung->Fische), der Shark Breed Time (Vermehrung->Haie) und der Shark Starve Time(Vermehrung->Hai-Sterben).
+		</p>
+		
+		<p>
+		Ausserdem h&auml;ngt der Ablauf der Simulation von der Gr&ouml;sse des Planeten ab, diese wird aber als gegeben vorausgesetzt. Die Simulation kann als Spiel aufgefasst werden, das Ziel des Spieles ist es dann, die Startparameter so zu w&auml;hlen, dass ein stabiles Gleichgewicht entsteht.
+		</p>
+		
+		<p>
+			<i style="font-size:10px;">Quelle: <a href="http://de.wikipedia.org/wiki/Wator">Wator auf Wikipedia</a></i>
+		</p>
+	</div>
+</html>
