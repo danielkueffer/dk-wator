@@ -10,8 +10,8 @@ Wa-Tor Java Application
 
 In order to run the program, you can download a executable file:
 
-- All platforms (jar): [https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.jar](https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.jar)
-- Windows (exe): [https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.exe](https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.exe)
+- All platforms (jar): [https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.jar](https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.jar?raw=true)
+- Windows (exe): [https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.exe](https://github.com/danielkueffer/dk-wator/blob/master/bin/DK-Wator.exe?raw=true)
 
 ## License
 
